@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body{padding: 0 0 0 0; margin: 0 0 0 0;}
+
+/*==================login 로그인 ====================*/
+div.osf_wrrp{position:relative}
+fieldset {border:none; padding: 0}
+.login_wrrp .div_input {position:relative; min-height:0; line-height:0; border:0; border-bottom:1px solid #919191; box-shadow:none; border-radius:0; background:none; padding:2px 30px 2px 1px; margin-bottom:20px;}
+.login_wrrp .div_input input.input {padding:0; height:30px; border-radius:0; background:none; border:0; font-size:18px;}
+.login_wrrp .div_input input.input:focus {outline:none;}
+.login_wrrp .login_form{margin:0 20px 30px; margin-bottom:65px;}
+.login_wrrp input.btn_login_sub{display: block; width:100%; border:1px solid #02a1c0; border-radius:50px; margin:110px auto 50px; padding:12px 0; background:#02a1c0; background:-webkit-gradient(linear, left top, left bottom, from(#02a1c0), to(#02a1c0)); text-align: center; font-size:18px; color:#fff; cursor:pointer;}
+
+
+/*==================home 홈 ====================*/
+/* .home_header {width:100%; background:#48abf1; height:100px;} */
+.wrrp_logo img{padding:0 10px 0 10px;}
+ul.home{list-style:none; padding:16px; box-sizing:border-box;}
+ul.home li{ width: 25%; height: 100px; float: left; box-sizing:border-box; position: relative; }
+.icn_home_calander {background: url("../images/icons8-calendar-50.png/"); background-repeat: no-repeat; }
+.icn_home_board {background: url("../images/icons8-board-64.png/"); background-repeat: no-repeat;}
+/* .m_img_wrrp .m_txt {text-align:center; } */
+/* .wrrp_home_menu{position:relative; width:100%; padding:16px; box-sizing: border-box;} */
+footer{  margin: 0 20px 30px; padding: 16px 0; background: #f3f3f3; border-radius:7px;}
+footer .corp_footer{ text-align: center; position:relative;}
+
+/* media query */
+
+@media (max-width : 600px){
+	.home_header{ 
+	height:150px;
+	}
+} 
+
+
+
+/* html.wrrp_home_menu body { height: 100%; box-sizing:border-box; position: relative; }
+.home_wrap .wrrp_home_menu  { }
+.home_wrap .wrrp_home_menu  > div ul { clear: both; position: relative; width: 100%; padding:16px; box-sizing:border-box;}
+.home_wrap .wrrp_home_menu  > div ul:after {display:block;clear:both;overflow:hidden;height:0;content:'';}
+.home_wrap .wrrp_home_menu  > div ul li { width: 25%; height: 100px; float: left; box-sizing:border-box; position: relative; }
+.home_wrap .wrrp_home_menu  > div ul li .badge { position: absolute; top: 10px; left:50%; margin-left:2px; min-width:8px; z-index: 2; background: #fd1e1e; font-weight: normal; }
+.home_wrap .wrrp_home_menu a.m_img_wrrp {width: 100%; height: 100%; display: inline-block; *display: block; *zoom: 1; border-radius: 40px; position: relative; text-align:center;}
+.home_wrap .wrrp_home_menu a.m_img_wrrp i { }
+.home_wrap .wrrp_home_menu a.m_img_wrrp p.m_txt { position: absolute; margin: 0 auto ;  left: 0px; right: 0px; top:60px }
+.home_wrap .wrrp_home_menu a.m_img_wrrp:focus,
+.home_wrap .wrrp_home_menu .m_txt { color: #333; font-size: 14px; text-align: center; }
+html.wrrp_home_menu footer { position: relative; width: 100%; border-top:none;}
+html.wrrp_home_menu footer .corp_footer {margin:0 20px 30px; padding:16px 0; background:#f3f3f3; border-radius:4px;}
+html.wrrp_home_menu footer .corp_footer {font-size: 13px;  }
+ */
+
+
+
+
+
+

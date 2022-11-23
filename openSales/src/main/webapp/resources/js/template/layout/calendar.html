@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="/resources/css/openSFStyle.css" media="all">
+ 		<script type="text/javascript"src="/resources/js/vendor/backbone.js"></script>
+ 		<script type="text/javascript"src="/resources/js/vendor/require.js"></script>
+ 		<script type="text/javascript"src="/resources/js/vendor/jquery-3.6.0.js"></script>
+ 		<script type="text/javascript"src="/resources/js/views/layout/calendar.js"></script>
+	</head>
+	<body>
+		<div class="home_wrap">
+			<!-- 메뉴 , 홈화면 , 타이틀 표시 하는 영역 -->
+			<header class="home_header">
+				<div class="info_header">
+					<p id="calendar_title">일정목록</p]>
+					<div class="menu_item_top">
+						<a id="sideBtnMenu"><span class="icn_list"></span></a>
+						<a id="homeBtn"><span class="icn_home"></span></a>
+					</div>
+			    </div>
+		    </header>
+		    <div class="osf_content">
+				<div idclass="m_calendar">
+					<section id="m_toolbar" class="calendar_tool_bar">
+						<div class="current_date">
+							<a id="prevMonthBtn"><span class="btn_prev"></span></a>
+							<span class="date" id="currentMonth" data-date="{{currentMonth}}">{{currentMonth}}<!-- 날짜 들어가는 곳 --></span>
+							<a id="nextMonthBtn"><span class="btn_next"></span></a>
+						</div>
+						<!-- 주간, 오늘 버튼 삽입 부분 -->
+						<div class="functions">
+							<span class="m_txt">{{lang.weeks}}</span>
+						</div>
+						<div class="option_functions">
+							<span class="m_txt">{{lang.toDate}}</span>
+						</div>
+					</section>
+					<!-- 캘린더 삽입 부분 -->
+					<div class="calendar_contents"></div>
+					<!-- 캘린더 접는 부분 -->
+					<a class="calendar_open_close">
+						<span class="btn_look_list"></span>
+					</a>
+					<dl id="calendar_data_list" class="list_today">
+						<dt>
+							<span class="m_txt"></span>
+						</dt>
+						<!-- <dd class="data_null">
+							<span class="m_txt">등록된 일정이 없습니다.</span>
+						</dd> -->
+					</dl>
+				</div>								
+			</div>
+		</div>
+		<a id="add_schedule" class="btn_add_cal"></a>
+	</body>
+</html>
